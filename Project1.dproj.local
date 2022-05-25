@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.847,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Project1.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.562,=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.125,=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.667,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit1.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.424,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit1.pas=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\GUIUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.028,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.424,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit1.dfm=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\GUIUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.667,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit1.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022.05.24 19:32:57.395,=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit3.pas</Transaction>
+    <Transaction>2022.05.24 19:33:41.227,D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\FIlesLib.pas=D:\Учёба\ОАиП\Курсач 2 сем\Проект с GUI\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>
