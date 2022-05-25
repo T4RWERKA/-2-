@@ -45,9 +45,17 @@ type
     procedure trckAccuracyChange(Sender: TObject);
     procedure Button1Click(Sender: TObject);
   private
+    function Eps: Real;
+    procedure SetEps(const Value: Real);
+    function Res: Real;
+    procedure SetRes(const Value: Real);
+    function N: Integer;
+    procedure SetN(const Value: Integer);
     { Private declarations }
   public
-
+    property PEps: Real read Eps write SetEps;
+    property PRes: Real read Res write SetRes;
+    property AN: Integer read N write SetN;
   end;
 
 var
@@ -148,6 +156,36 @@ end;
 procedure TMainForm.cmbbxMethodsChange(Sender: TObject);
 begin
   ComboFlag := True;
+end;
+
+function TMainForm.Eps: Real;
+begin
+  Result := Eps;
+end;
+
+function TMainForm.N: Integer;
+begin
+  Result := N;
+end;
+
+function TMainForm.Res: Real;
+begin
+  Result := Res;
+end;
+
+procedure TMainForm.SetEps(const Value: Real);
+begin
+  PEps := Value;
+end;
+
+procedure TMainForm.SetN(const Value: Integer);
+begin
+  AN := Value;
+end;
+
+procedure TMainForm.SetRes(const Value: Real);
+begin
+  PRes := Value;
 end;
 
 procedure TMainForm.trckAccuracyChange(Sender: TObject);

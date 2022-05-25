@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  FilesLib;
+  FilesLib, GUIUnit;
 
 type
   TfrmResult = class(TForm)
@@ -42,7 +42,15 @@ begin
 end;
 
 procedure TfrmResult.btnSaveClick(Sender: TObject);
+var
+  N: Integer;
+  Res, Eps: Real;
+
 begin
+  N := AN;
+  Res := ARes;
+  Eps := AEps;
+
   SaveDialog1.Execute();
   CreateTextFile(0, 100, SaveDialog1.FileName, FloatToStr(10), FloatToStr(0.001));
 end;

@@ -42,7 +42,7 @@ begin
   else
     X := A;
     
-  for i := Low to High do
+  //for i := Low to High do
 
 
   Close(F);
